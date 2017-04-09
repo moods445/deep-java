@@ -15,4 +15,11 @@ ArrayList中有两个变量，一个是存储元素的数组（ Object[] element
 
 方法
 ---
-  添加元素共有四个
+  添加元素共有四个  
+
+
+
+疑问
+---
+1. Arrays.copyOf() 为什么是浅复制  
+1. 检查是否超出索引的时候有两个方法，rangeCheck(int index) 和 rangeCheckForAdd(int index),为什么前者不检查 index < 0 的情况
